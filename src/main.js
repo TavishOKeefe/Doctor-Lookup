@@ -18,14 +18,15 @@ $(document).ready(function() {
 
     promise.then(function (response) {
       let body = JSON.parse(response);
-      console.log(body);
       if (body.data.length === 0){
-        $('.name1').append("Sorry, but your search matched with no results in the Portland, OR area.")
+        $('.name1').append("Sorry, but your search matched no results in the Portland, OR area.")
       } else {
         body.data.forEach(function(doctor){
         $('.name1').append('<ul><li>' + doctor.profile.slug + '<br>'+ 'Address in Portland, OR: ' + doctor.practices[0].visit_address.street + '<br>'+ 'Phone Number: ' + doctor.practices[0].phones[0].number + '<br>'+ doctor.profile.image_url + '<br>'+ 'Accepting new patients: ' + doctor.practices[0].accepts_new_patients + '</li><ul>');
         });
       }
-    });
+    },  function(error) {
+    $('.error').text(`There was an error processing your request: ${error.message}`);
+  });
   });
 });

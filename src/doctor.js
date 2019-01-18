@@ -12,7 +12,6 @@ class Doctor {
           resolve(request.response);
         } else {
           reject(Error(request.statusText));
-          return `You have the following error ${request.statusText}.`;
         }
       }
 
