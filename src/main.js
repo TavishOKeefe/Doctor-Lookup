@@ -17,10 +17,10 @@ $(document).ready(function() {
 
     promise.then(function (response) {
       let body = JSON.parse(response);
-      console.log(body);
-      $('#output').text('');
-      $('#output').append(body);
-
+      body.data.forEach(function(doctor){
+      // $('.output').text('');
+      $('.output').append('<ul><li>' + doctor.profile.slug + '</li><ul>');
+      });
     });
   });
 });
