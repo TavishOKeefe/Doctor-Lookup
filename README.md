@@ -1,39 +1,31 @@
-# _Super-Galactic-Age-Calculator_
+# _Doctor-Lookup_
 
 #### By _**Tavish OKeefe**_
 
 ## Description
 
-_This application takes a person’s age in years and does the following:
-
-* Returns their age in Mercury years. (A Mercury year is .24 Earth years.)
-* Returns their age in Venus years. (A Venus year is .62 Earth years.)
-* Returns their age in Mars years. (A Mars year is 1.88 Earth years.)
-* Returns their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)
-* Determines how many years a user has left to live on each planet.
-* If a user has already surpassed the average life expectancy, this application returns the number of years they have lived past their life expectancy.._
+_This application takes a person’s medical issues, or a doctors name, and returns a list of doctors in the Portland area that fit that search query. This application will provide the doctors first and last name, address, phone number, website, and whether or not the doctor is accepting new patients._
 
 ## Specifications
-* _**Determine present date and time.**_
-* _**Take user birthday.**_
-* _**Calculate user age.**_
-* _**Calculate user age in Mercury years.**_
-* _**Calculate user age in Venus years.**_
-* _**Calculate user age in Mars years.**_
-* _**Calculate user age in Jupiter years.**_
-* _**Take user sex.**_
-* _**Calculate user remaining life expectancy, based on average life expectancy of user sex.**_
-* _**Calculate user remaining life expectancy on Mercury, Venus, Mars, and Jupiter.**_
-* _**If user has lived past average life expectancy, calculate how long past.**_
+
+* _**Register for an API key from BetterDoctorAPI.**_
+* _**Write functionality to obtain information from API.**_
+* _**Extrapolate specific information from API.**_
+* _**Procure information from user, (symptoms, or the name of a doctor).**_
+* _**Compare user input data with data procured through the API.**_
+* _**Display information obtained.**_
+* _**Return polite response if no doctors meet user criteria.**_
 
 
 
 ## _Setup/Installation Requirements_
 
+* _Go to https://developer.betterdoctor.com/, and register for a unique API key._
 * _Clone repository to your desktop_
 * _Open in Atom, or text and source code editor of your choosing._
 * _Install Node.js on your desktop, if not already installed._
 * _Run npm install command through terminal, within project directory._
+* _Update code to use your unique API key._
 * _Run npm run start to launch application._
 
 
@@ -55,6 +47,7 @@ _Tavish OKeefe: okeefe.tavish@gmail.com_
 * _Webpack_
 * _Uglify_
 * _Jasmine_
+* _BetterDoctorAPI_
 
 ### License
 
