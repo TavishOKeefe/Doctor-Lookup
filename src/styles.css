@@ -1,0 +1,17 @@
+.navbar-header {
+  background-color: #a5bee5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 65%;
+  padding: 5px;
+}
+
+#submitDoctorInfo {
+  background-color: #a5bee5;
+  padding: 10px;
+}
+
+#doctorInput {
+  margin-left: 10px;
+}

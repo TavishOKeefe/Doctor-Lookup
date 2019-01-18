@@ -22,7 +22,7 @@ $(document).ready(function() {
         $('.name1').append("Sorry, but your search matched no results in the Portland, OR area.")
       } else {
         body.data.forEach(function(doctor){
-        $('.name1').append('<ul><li>' + doctor.profile.slug + '<br>'+ 'Address in Portland, OR: ' + doctor.practices[0].visit_address.street + '<br>'+ 'Phone Number: ' + doctor.practices[0].phones[0].number + '<br>'+ doctor.profile.image_url + '<br>'+ 'Accepting new patients: ' + doctor.practices[0].accepts_new_patients + '</li><ul>');
+        $('.name1').append('<ul><li>' + '<strong>' + doctor.profile.slug + '</strong>' + '<br>'+ 'Address in Portland, OR: ' + doctor.practices[0].visit_address.street + '<br>'+ 'Phone Number: ' + doctor.practices[0].phones[0].number + '<br>'+ doctor.profile.image_url + '<br>'+ 'Accepting new patients: ' + doctor.practices[0].accepts_new_patients + '</li><ul>');
         });
       }
     }, function(error) {
