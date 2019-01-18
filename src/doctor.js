@@ -1,6 +1,5 @@
 class Doctor {
   constructor(){
-
   }
 
   searchAPIforDoctorInfo(name, firstName, lastName, query){
@@ -14,7 +13,6 @@ class Doctor {
           reject(Error(request.statusText));
         }
       }
-
       request.open("GET", url, true);
       request.send();
     });
