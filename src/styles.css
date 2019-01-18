@@ -5,6 +5,7 @@
   margin-left: 10px;
   margin-right: 65%;
   padding: 5px;
+  opacity: .9;
 }
 
 #submitDoctorInfo {
@@ -14,4 +15,29 @@
 
 #doctorInput {
   margin-left: 10px;
+}
+
+body {
+  background-image: url(https://images.pexels.com/photos/953214/pexels-photo-953214.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+}
+
+label {
+  color: #ededed;
+}
+
+input {
+  opacity: .8;
+  margin: 4px;
+}
+
+.name1 {
+  color: #ededed;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.wing {
+  float: right;
+  margin-right: 50px;
+  opacity: .9;
 }
