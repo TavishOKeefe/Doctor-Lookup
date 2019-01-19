@@ -1,16 +1,23 @@
+h2 {
+  font-family: Papyrus, fantasy;
+}
+
 .navbar-header {
   background-color: #a5bee5;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 40px;
   margin-left: 10px;
-  margin-right: 65%;
-  padding: 5px;
+  margin-right: 60%;
+  padding-top: 15px;
+  padding-left: 10px;
   opacity: .9;
+  border-radius: 7px;
 }
 
 #submitDoctorInfo {
   background-color: #a5bee5;
   padding: 10px;
+  border-radius: 7px;
+  margin-top: 5px;
 }
 
 #doctorInput {
@@ -23,6 +30,8 @@ body {
 
 label {
   color: #ededed;
+  padding: 5px;
+  margin-top: 4px;
 }
 
 input {
@@ -33,6 +42,7 @@ input {
 .name1 {
   color: #ededed;
   text-align: center;
+  margin-top: 30px;
   margin-bottom: 60px;
 }
 
